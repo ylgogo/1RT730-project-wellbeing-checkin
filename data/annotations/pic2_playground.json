@@ -1,0 +1,79 @@
+{
+  "picture_id": "pic2_playground",
+  "file": "pic2_playground.png",
+  "domain": ["Physical-physical health","Social-relationships with friends and peers"],
+  "entities": [
+    {
+      "id": "e1",
+      "desc": "boy with brown hair, green sweater and brown trousers",
+      "region": "left",
+      "bbox": [
+        0.087,
+        0.375,
+        0.237,
+        0.842
+      ]
+    },
+    {
+      "id": "e2",
+      "desc": "girl in a red top with both arms raised",
+      "region": "left-center",
+      "bbox": [
+        0.206,
+        0.35,
+        0.394,
+        0.817
+      ]
+    },
+    {
+      "id": "e3",
+      "desc": "boy in a blue sweater standing apart on the right",
+      "region": "right",
+      "bbox": [
+        0.744,
+        0.392,
+        0.875,
+        0.892
+      ]
+    },
+    {
+      "id": "e4",
+      "desc": "football on the grass",
+      "region": "center-bottom",
+      "bbox": [
+        0.481,
+        0.647,
+        0.569,
+        0.767
+      ]
+    },
+    {
+      "id": "e5",
+      "desc": "football goal with a net",
+      "region": "right-back",
+      "bbox": [
+        0.519,
+        0.158,
+        1.0,
+        0.592
+      ]
+    },
+    {
+      "id": "e6",
+      "desc": "school building with windows",
+      "region": "top-left",
+      "bbox": [
+        0.0,
+        0.058,
+        0.312,
+        0.3
+      ]
+    }
+  ],
+  "required_points": [
+    "before",
+    "now",
+    "after",
+    "feeling"
+  ]
+}

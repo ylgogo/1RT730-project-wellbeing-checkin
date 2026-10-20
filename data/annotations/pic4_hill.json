@@ -1,0 +1,57 @@
+{
+  "picture_id": "pic4_hill",
+  "file": "pic4_hill.png",
+  "domain": ["Social-relationships with friends and peers","Academic-Bullying"],
+  "entities": [
+    {
+      "id": "e1",
+      "desc": "boy with curly hair in a blue t-shirt sitting on the grass",
+      "region": "left",
+      "bbox": [
+        0.119,
+        0.437,
+        0.375,
+        0.908
+      ]
+    },
+    {
+      "id": "e2",
+      "desc": "girl in a red top leaning toward the boy with one arm stretched out",
+      "region": "center",
+      "bbox": [
+        0.297,
+        0.3,
+        0.575,
+        0.867
+      ]
+    },
+    {
+      "id": "e3",
+      "desc": "boy in a yellow top walking with his hands held together",
+      "region": "right",
+      "bbox": [
+        0.719,
+        0.103,
+        0.881,
+        0.708
+      ]
+    },
+    {
+      "id": "e4",
+      "desc": "trees on the left hill",
+      "region": "top-left",
+      "bbox": [
+        0.019,
+        0.092,
+        0.169,
+        0.325
+      ]
+    }
+  ],
+  "required_points": [
+    "before",
+    "now",
+    "after",
+    "feeling"
+  ]
+}

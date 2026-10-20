@@ -1,0 +1,79 @@
+{
+  "picture_id": "pic1_school",
+  "file": "pic1_school.png",
+  "domain":  ["Social-relationships with friends and peers", "Academic-relation to teachers"],
+  "entities": [
+    {
+      "id": "e1",
+      "desc": "girl with brown hair, red top and purple backpack",
+      "region": "left",
+      "bbox": [
+        0.087,
+        0.475,
+        0.25,
+        0.983
+      ]
+    },
+    {
+      "id": "e2",
+      "desc": "boy with curly hair, yellow top and green backpack",
+      "region": "left",
+      "bbox": [
+        0.231,
+        0.467,
+        0.394,
+        0.983
+      ]
+    },
+    {
+      "id": "e3",
+      "desc": "teacher with glasses holding a clipboard",
+      "region": "center",
+      "bbox": [
+        0.419,
+        0.108,
+        0.644,
+        0.992
+      ]
+    },
+    {
+      "id": "e4",
+      "desc": "boy in a blue top with both arms out",
+      "region": "right",
+      "bbox": [
+        0.662,
+        0.458,
+        0.981,
+        0.992
+      ]
+    },
+    {
+      "id": "e5",
+      "desc": "clipboard",
+      "region": "center",
+      "bbox": [
+        0.525,
+        0.425,
+        0.644,
+        0.642
+      ]
+    },
+    {
+      "id": "e6",
+      "desc": "row of lockers along the right wall",
+      "region": "right-back",
+      "bbox": [
+        0.65,
+        0.25,
+        0.85,
+        0.7
+      ]
+    }
+  ],
+  "required_points": [
+    "before",
+    "now",
+    "after",
+    "feeling"
+  ]
+}

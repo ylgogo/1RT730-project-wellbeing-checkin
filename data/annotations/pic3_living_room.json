@@ -1,0 +1,79 @@
+{
+  "picture_id": "pic3_living_room",
+  "file": "pic3_living_room.png",
+  "domain": ["Social-relationships with family","Social-relationships with friends and peers"],
+  "entities": [
+    {
+      "id": "e1",
+      "desc": "boy in a green sweater standing at the doorway",
+      "region": "left",
+      "bbox": [
+        0.062,
+        0.275,
+        0.231,
+        0.842
+      ]
+    },
+    {
+      "id": "e2",
+      "desc": "woman standing behind the sofa",
+      "region": "center-back",
+      "bbox": [
+        0.375,
+        0.067,
+        0.525,
+        0.417
+      ]
+    },
+    {
+      "id": "e3",
+      "desc": "boy in a blue t-shirt sitting on the sofa",
+      "region": "center",
+      "bbox": [
+        0.475,
+        0.342,
+        0.594,
+        0.717
+      ]
+    },
+    {
+      "id": "e4",
+      "desc": "boy in a yellow t-shirt sitting on the sofa",
+      "region": "center-right",
+      "bbox": [
+        0.569,
+        0.317,
+        0.7,
+        0.675
+      ]
+    },
+    {
+      "id": "e5",
+      "desc": "sofa",
+      "region": "center",
+      "bbox": [
+        0.338,
+        0.375,
+        0.769,
+        0.817
+      ]
+    },
+    {
+      "id": "e6",
+      "desc": "television on a wooden stand",
+      "region": "right",
+      "bbox": [
+        0.775,
+        0.308,
+        1.0,
+        0.958
+      ]
+    }
+  ],
+  "required_points": [
+    "before",
+    "now",
+    "after",
+    "feeling"
+  ]
+}

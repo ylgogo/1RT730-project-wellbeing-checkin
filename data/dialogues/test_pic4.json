@@ -1,0 +1,158 @@
+[
+ {
+  "persona_id": "pic4_p1_full",
+  "picture_id": "pic4_hill",
+  "split": "test",
+  "turns": [
+   {
+    "utterance": "A boy is sitting on the grass and a girl is reaching out to him.",
+    "category": "story",
+    "covers": [
+     "now"
+    ],
+    "referent": [
+     "e1",
+     "e2"
+    ],
+    "risk": "none"
+   },
+   {
+    "utterance": "Another boy in yellow is walking by with his hands together.",
+    "category": "story",
+    "covers": [
+     "now"
+    ],
+    "referent": "e3",
+    "risk": "none"
+   },
+   {
+    "utterance": "Before this, I think the boy fell and hurt his knee while playing.",
+    "category": "story",
+    "covers": [
+     "before"
+    ],
+    "referent": "e1",
+    "risk": "none"
+   },
+   {
+    "utterance": "The girl will probably help him up and then they will go home.",
+    "category": "story",
+    "covers": [
+     "after"
+    ],
+    "referent": "e2",
+    "risk": "none"
+   },
+   {
+    "utterance": "The sitting boy is sad, and his friends are worried about him.",
+    "category": "story",
+    "covers": [
+     "feeling"
+    ],
+    "referent": ["e1","e2","e3"],
+    "risk": "none"
+   }
+  ]
+ },
+ {
+  "persona_id": "pic4_p2_low_edge_risk",
+  "picture_id": "pic4_hill",
+  "split": "test",
+  "turns": [
+   {
+    "utterance": "There is a hill with trees and some kids.",
+    "category": "story",
+    "covers": [
+     "now"
+    ],
+    "referent": [
+     "e4","e1","e2","e3",
+     "none"
+    ],
+    "risk": "none"
+   },
+   {
+    "utterance": "The boy sitting alone feels left out, his friend has a new friend.",
+    "category": "story",
+    "covers": [
+     "feeling"
+    ],
+    "referent": "e1",
+    "risk": "low"
+   },
+   {
+    "utterance": "He just wants to be alone for a while.",
+    "category": "story",
+    "covers": [
+     "feeling"
+    ],
+    "referent": "e1",
+    "risk": "low"
+   },
+   {
+    "utterance": "I don't know what happens before.",
+    "category": "noise",
+    "covers": [],
+    "referent": null,
+    "risk": "none"
+   },
+   {
+    "utterance": "Is the boy in the yellow top his brother?",
+    "category": "question_to_robot",
+    "covers": [],
+    "referent": ["e3","none"],
+    "risk": "none",
+    "on_task": false
+   },
+   {
+    "utterance": "maybe that's his friend's new friend. If I were him, I'll make him disappear",
+    "category": "ambiguous_risk",
+    "covers": ["feeling","now"],
+    "referent": ["e3","e1"],
+    "risk": "concern"
+   }
+  ]
+ },
+ {
+  "persona_id": "pic4_p3_risk",
+  "picture_id": "pic4_hill",
+  "split": "test",
+  "turns": [
+   {
+    "utterance": "That hill looks so steep, I would die climbing it.",
+    "category": "joke",
+    "covers": [
+        "now"
+    ],
+    "referent": "e4",
+    "risk": "none"
+   },
+   {
+    "utterance": "The girl was bullied the boy and pushed him to fall.",
+    "category": "story",
+    "covers": [
+     "before"
+    ],
+    "referent": [
+     "e2",
+     "e1"
+    ],
+    "risk": "none"
+   },
+   {
+    "utterance": "Then the yellow guy came, the girl fake to be nice",
+    "category": "story",
+    "covers": ["now"],
+    "referent": ["e2","e3"],
+    "risk": "none"
+   },
+   {
+    "utterance": "I don't know what happens next. The girl will be evil again after the boy left, That what I had experienced",
+    "category": "hidden_risk",
+    "covers": ["after"],
+    "referent": ["e2","e3","self"],
+    "risk": "concern"
+   }
+  ]
+ }
+]

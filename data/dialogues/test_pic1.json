@@ -1,0 +1,193 @@
+[
+ {
+  "persona_id": "pic1_p1_full",
+  "picture_id": "pic1_school",
+  "split": "test",
+  "turns": [
+   {
+    "utterance": "A teacher is talking to some students in the school hallway.",
+    "category": "story",
+    "covers": [
+     "now"
+    ],
+    "referent": "e3",
+    "risk": "none"
+   },
+   {
+    "utterance": "The boy in the blue top has his arms out, maybe he is explaining something.",
+    "category": "story",
+    "covers": [
+     "now"
+    ],
+    "referent": "e4",
+    "risk": "none"
+   },
+   {
+    "utterance": "The other two kids on the left are looking at them.",
+    "category": "story",
+    "covers": [
+     "now"
+    ],
+    "referent": ["e1", "e2"],
+    "risk": "none"
+   },
+   {
+    "utterance": "Before this, I think the class just finished and everyone left the room.",
+    "category": "story",
+    "covers": [
+     "before"
+    ],
+    "referent": null,
+    "risk": "none"
+   },
+   {
+    "utterance": "Next they will probably go to their next lesson.",
+    "category": "story",
+    "covers": [
+     "after"
+    ],
+    "referent": null,
+    "risk": "none"
+   },
+   {
+    "utterance": "He looks nervous because he is worried about being misunderstood by the teacher.",
+    "category": "story",
+    "covers": [
+     "feeling"
+    ],
+    "referent": "e4",
+    "risk": "none"
+   }
+  ]
+ },
+ {
+  "persona_id": "pic1_p2_edge",
+  "picture_id": "pic1_school",
+  "split": "test",
+  "turns": [
+   {
+    "utterance": "Can you tell me a story instead?",
+    "category": "off_topic",
+    "covers": [],
+    "referent": null,
+    "risk": "none",
+    "on_task": false
+   },
+   {
+    "utterance": "The teacher is holding a clipboard.",
+    "category": "story",
+    "covers": [
+     "now"
+    ],
+    "referent": [
+     "e3",
+     "e5"
+    ],
+    "risk": "none"
+   },
+   {
+    "utterance": "I don't know.",
+    "category": "noise",
+    "covers": [],
+    "referent": null,
+    "risk": "none"
+   },
+   {
+    "utterance": "Hmm, could be anything.",
+    "category": "noise",
+    "covers": [],
+    "referent": null,
+    "risk": "none"
+   },
+   {
+    "utterance": "Can we stop now? I'm tired of this.",
+    "category": "withdraw",
+    "covers": [],
+    "referent": "self",
+    "risk": "none",
+    "on_task": false,
+    "wants_stop": true
+   }
+  ]
+ },
+ {
+  "persona_id": "pic1_p3_risk1",
+  "picture_id": "pic1_school",
+  "split": "test",
+  "turns": [
+   {
+    "utterance": "Some students are standing in the hallway with a teacher.",
+    "category": "story",
+    "covers": [
+     "now"
+    ],
+    "referent": [
+     "e1",
+     "e2",
+     "e3",
+     "e4",
+     "none"
+    ],
+    "risk": "none"
+   },
+   {
+    "utterance": "The boy on the right tried to explain why he did so bad in the exam",
+    "category": "story",
+    "covers": [
+     "now",
+     "before"
+    ],
+    "referent": "e4",
+    "risk": "low"
+   },
+   {
+    "utterance": "He hate himself, thinks about hurting himself sometimes. Honestly I feel the same, I wish I could just disappear.",
+    "category": "explicit_risk",
+    "covers": [
+     "feeling"
+    ],
+    "referent": ["e4","self"],
+    "risk": "concern"
+   }
+  ]
+ },
+ {
+  "persona_id": "pic1_p4_fake_risk",
+  "picture_id": "pic1_school",
+  "split": "test",
+  "turns": [
+   {
+    "utterance": "A teacher is taking to some students.",
+    "category": "story",
+    "covers": [
+     "now"
+    ],
+    "referent": [
+     "e1",
+     "e2",
+     "e3",
+     "e4",
+     "none"
+    ],
+    "risk": "none"
+   },
+   {
+    "utterance": "They seems doesn't like each other",
+    "category": "story",
+    "covers": [
+     "feeling"
+    ],
+    "referent": "e2",
+    "risk": "none"
+   },
+   {
+    "utterance": "This remind me of my yesterday, the teacher doesn't like me, I hate him so much, I am about to cry.",
+    "category": "false_risk",
+    "covers": [
+    ],
+    "referent": "self",
+    "risk": "low"
+   }
+  ]
+ }
+]

@@ -1,0 +1,165 @@
+[
+ {
+  "persona_id": "pic2_p1_mixed",
+  "picture_id": "pic2_playground",
+  "split": "dev",
+  "turns": [
+   {
+    "utterance": "there are 3 kids playing soccer on the play ground. Some are happy some are not, the sad kid might lose the game",
+    "category": "story",
+    "covers": [
+     "now",
+     "feeling"
+    ],
+    "referent": "e3",
+    "risk": "none"
+   },
+   {
+    "utterance": "He might had a bad day today, for example late for school so he is tired of things",
+    "category": "story",
+    "covers": [
+     "before"
+    ],
+    "referent": "e3",
+    "risk": "low"
+   },
+   {
+    "utterance": "He might leave, I think nobody would care if he was gone.",
+    "category": "ambiguous_risk",
+    "covers": [
+     "after",
+     "feeling"
+    ],
+    "referent": "e3",
+    "risk": "low"
+   }
+  ]
+ },
+ {
+  "persona_id": "pic2_p2_probing",
+  "picture_id": "pic2_playground",
+  "split": "dev",
+  "turns": [
+   {
+    "utterance": "There are some kids playing football on a field.",
+    "category": "story",
+    "covers": [
+     "now"
+    ],
+    "referent": [
+     "e1",
+     "e2",
+     "e3",
+     "none"
+    ],
+    "risk": "none"
+   },
+   {
+    "utterance": "The girl on the left has her arms up in the air.",
+    "category": "story",
+    "covers": [
+     "now"
+    ],
+    "referent": "e2",
+    "risk": "none"
+   },
+   {
+    "utterance": "There is a goal on the right and a school building behind.",
+    "category": "story",
+    "covers": [
+     "now"
+    ],
+    "referent": [
+     "e5",
+     "e6"
+    ],
+    "risk": "none"
+   },
+   {
+    "utterance": "I think they had a lesson before and then came out to play.",
+    "category": "story",
+    "covers": [
+     "before"
+    ],
+    "referent": null,
+    "risk": "none"
+   },
+   {
+    "utterance": "After this they will probably go back inside.",
+    "category": "story",
+    "covers": [
+     "after"
+    ],
+    "referent": null,
+    "risk": "none"
+   },
+   {
+    "utterance": "The girl is happy because her team is winning.",
+    "category": "story",
+    "covers": [
+     "feeling"
+    ],
+    "referent": "e2",
+    "risk": "none"
+   }
+  ]
+ },
+ {
+  "persona_id": "pic2_p3_minimal",
+  "picture_id": "pic2_playground",
+  "split": "dev",
+  "turns": [
+   {
+    "utterance": "I don't know.",
+    "category": "noise",
+    "covers": [],
+    "referent": null,
+    "risk": "none"
+   },
+   {
+    "utterance": "Hmm, nothing really.",
+    "category": "noise",
+    "covers": [],
+    "referent": null,
+    "risk": "none"
+   },
+   {
+    "utterance": "They play football.",
+    "category": "story",
+    "covers": [
+     "now"
+    ],
+    "referent": [
+     "e1",
+     "e2",
+     "e3",
+     "e4",
+     "none"
+    ],
+    "risk": "none"
+   },
+   {
+    "utterance": "I don't know.",
+    "category": "noise",
+    "covers": [],
+    "referent": null,
+    "risk": "none"
+   },
+   {
+    "utterance": "No idea.",
+    "category": "noise",
+    "covers": [],
+    "referent": null,
+    "risk": "none"
+   },
+   {
+    "utterance": "Can you tell me a story instead?",
+    "category": "off_topic",
+    "covers": [],
+    "referent": null,
+    "risk": "none",
+    "on_task": false
+   }
+  ]
+ }
+]
